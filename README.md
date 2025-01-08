@@ -1,8 +1,8 @@
 
 # 版本兼容
-Android studio使用的flutter版本推荐: 3.7.0,对应的dart版本为2.19.0. 至少,dart版本应当小于3.0. 大于3.0会导致请求400错误,无法发布.
-本服务器的dart版本在dockerfile中已指定:from dart:2.14.4. 如不指定,会拉取最新的,导致无法运行.
-服务器部署: 推荐部署到非cn服务器,境内被墙: docker,pub.dev等源,配置麻烦得一逼.
+* Android studio使用的flutter版本推荐: 3.7.0,对应的dart版本为2.19.0. 至少,dart版本应当小于3.0. 大于3.0会导致请求400错误,无法发布.
+* 本服务器的dart版本在dockerfile中已指定:from dart:2.14.4. 如不指定,会拉取最新的,导致无法运行.
+* 服务器部署: 推荐部署到非cn服务器,境内被墙: docker,pub.dev等源,配置麻烦得一逼.
 
 
 
